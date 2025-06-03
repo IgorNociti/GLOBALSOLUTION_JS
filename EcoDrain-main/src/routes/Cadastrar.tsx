@@ -61,7 +61,7 @@ export default function Cadastrar() {
         animate="visible"
       >
         <h3 className="text-3xl md:text-4xl font-black text-center text-emerald-700 mb-8 tracking-tight">
-          Cadastro Smart Sensor
+          Cadastro EcoDrain
         </h3>
 
         <form onSubmit={handleSubmit} className="space-y-6">
