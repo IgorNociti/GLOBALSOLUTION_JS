@@ -1,89 +1,101 @@
-🌧️ EcoDrain - Bueiros Inteligentes para Cidades Mais Seguras 🌊
-License: MIT
-Tech stack: TypeScript, React, TailwindCSS, Framer Motion
+🌧️ EcoDrain - Monitoramento Inteligente de Bueiros 🌿  
+**License:** MIT | **Stack:** TypeScript · React · TailwindCSS · Framer Motion
 
-🎯 Sobre o Projeto
-O EcoDrain é uma aplicação web inovadora focada na prevenção e monitoramento inteligente de enchentes urbanas. Por meio de sensores instalados em bueiros, o sistema monitora em tempo real o nível da água, enviando alertas precisos para moradores e autoridades. O objetivo é evitar desastres, proteger vidas e tornar as cidades mais resilientes às mudanças climáticas.
+---
 
-Imagine uma ferramenta que permite visualizar mapas interativos, receber notificações instantâneas e agir preventivamente contra alagamentos. Esse é o EcoDrain!
+### 🎯 Sobre o Projeto
 
-✨ Principais Funcionalidades
-✅ Monitoramento em Tempo Real: Sensores que capturam o nível da água em bueiros e enviam dados atualizados.
-✅ Alertas Geolocalizados: Notificações imediatas para população e equipes públicas nas áreas de risco.
-✅ Mapas Interativos: Visualização intuitiva dos pontos críticos e status dos bueiros.
-✅ Análise Preditiva: Uso de dados históricos para prever possíveis alagamentos futuros.
-✅ Engajamento Comunitário: Programas educativos para ampliar a conscientização e segurança.
-✅ Interface Fluida: Design moderno com animações suaves para melhor experiência do usuário.
+O **EcoDrain** é uma aplicação web desenvolvida para monitorar bueiros urbanos e atuar de forma preventiva contra enchentes. Com foco em sustentabilidade e segurança urbana, oferece uma visualização clara dos riscos e facilita a tomada de decisão para evitar desastres.
 
-📁 Estrutura do Projeto (Sugerida)
-bash
-Copiar
-Editar
-eco-drain/
-├── public/                   # Arquivos estáticos (ícones, favicon etc)
+> Imagine saber em tempo real onde estão os pontos de entupimento e risco antes da cidade alagar. Isso é o **EcoDrain**!
+
+---
+
+### ✨ Funcionalidades
+
+✅ Simulação de sensores: gera dados de nível de água e entupimento automaticamente  
+✅ Avaliação de risco: classifica situações por gravidade (baixo, médio, alto)  
+✅ Mapa Interativo: visualização geográfica de pontos monitorados  
+✅ Design Moderno: com animações suaves e responsividade  
+🚧 Login e autenticação (em breve)  
+📊 Painel administrativo (em breve)
+
+---
+
+### 🗂️ Estrutura de Pastas (Sugerida)
+
+ecodrain/
+├── public/ # Arquivos estáticos (ícones, favicon, etc)
 ├── src/
-│   ├── assets/               # Imagens, ícones, fontes
-│   ├── components/           # Componentes reutilizáveis (Cards, Botões etc)
-│   ├── pages/                # Páginas principais (Home, Mapas, Contato, Erro)
-│   ├── routes/               # Configuração das rotas com React Router
-│   ├── services/             # Comunicação com APIs e sensores
-│   ├── store/                # Gerenciamento de estado (Redux, Zustand, Context)
-│   ├── hooks/                # Hooks personalizados
-│   ├── utils/                # Funções utilitárias (formatadores, validadores)
-│   ├── types/                # Tipagens TypeScript globais
-│   └── styles/               # Configurações e estilos Tailwind
-├── .env                      # Variáveis de ambiente
-├── tailwind.config.ts        # Configuração Tailwind CSS
-├── tsconfig.json             # Configuração TypeScript
-└── README.md
-🚀 Tecnologias Utilizadas
-React.js – Biblioteca para construção de interfaces reativas
+│ ├── assets/ # Imagens, ícones, logos
+│ ├── components/ # Componentes reutilizáveis (Nav, Footer, etc)
+│ ├── routes/ # Páginas principais (Home, Login, Sobre, etc)
+│ ├── layouts/ # (planejado) Layouts globais
+│ ├── services/ # (planejado) Comunicação com API/simuladores
+│ ├── store/ # (planejado) Estado global (Zustand ou Context)
+│ ├── hooks/ # (planejado) Hooks customizados
+│ ├── utils/ # (planejado) Funções utilitárias
+│ ├── types/ # (planejado) Tipagens TypeScript
+│ ├── styles/ # (planejado) Estilos globais
+│ ├── App.tsx # Componente principal
+│ ├── main.tsx # Entrada da aplicação React
+│ └── index.css # Estilos base do Tailwind
+├── .env # Variáveis de ambiente
+├── tailwind.config.ts # Configuração do Tailwind CSS
+├── tsconfig.json # Configuração do TypeScript
+├── vite.config.ts # Configuração do Vite
+└── README.md # Este arquivo
 
-TypeScript – Tipagem estática para maior robustez
-
-Tailwind CSS – Framework CSS utilitário para estilização rápida
-
-React Router DOM – Gerenciamento de rotas SPA
-
-Framer Motion – Animações fluidas e modernas
-
-Axios – Cliente HTTP para APIs
-
-Zustand / Redux Toolkit (opcional) – Gerenciamento de estado global
-
-Vite – Build tool e servidor de desenvolvimento super rápido
-
-🎨 Design e Estilo
-EcoDrain traz uma estética clean e moderna, com cores em tons verdes e azulados para remeter à natureza e tecnologia sustentável. Usamos gradientes suaves, sombras e animações para criar uma experiência amigável e acessível.
-
-⚙️ Como Rodar o Projeto (Desenvolvimento)
-Pré-requisitos
-Node.js instalado (v16+ recomendado)
-
-npm ou Yarn
-
-Instalação
-bash
+yaml
 Copiar
 Editar
+
+---
+
+### 🚀 Tecnologias Utilizadas
+
+- ⚛️ **React.js** – Biblioteca para interfaces modernas  
+- 💅 **Tailwind CSS** – Estilização com utilitários  
+- ⚡ **Vite** – Dev server e build super rápido  
+- 💨 **Framer Motion** – Animações suaves e responsivas  
+- 🟨 **TypeScript** – Tipagem segura para evitar erros  
+- 🧭 **React Router** – Navegação SPA entre páginas  
+- 🌐 **Axios (planejado)** – Comunicação com APIs
+
+---
+
+### 🎨 Design
+
+A identidade visual do **EcoDrain** mistura tons de verde, azul e cinza, transmitindo natureza, tecnologia e prevenção. Utilizamos animações suaves e um layout limpo para facilitar a navegação e a compreensão do conteúdo.
+
+---
+
+### ⚙️ Como Rodar o Projeto
+
+#### ✅ Pré-requisitos:
+- Node.js instalado
+- Gerenciador de pacotes: `npm` ou `yarn`
+
+#### 🛠 Instalação:
+
+```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/eco-drain.git
-cd eco-drain
+git clone https://github.com/seu-usuario/ecodrain.git
+cd ecodrain
 
 # Instale as dependências
 npm install
 # ou
 yarn install
-Rodando localmente
+▶️ Rodando:
 bash
 Copiar
 Editar
-# Ambiente de desenvolvimento
 npm run dev
 # ou
 yarn dev
-🧪 Testes (planejados)
-Jest + React Testing Library para testes unitários
+🧪 Testes (em breve)
+Jest + Testing Library para testes de componentes
 
-Cypress para testes end-to-end
+Cypress para testes de navegação
 
