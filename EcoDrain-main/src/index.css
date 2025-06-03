@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Animação de leve tremor no hover */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-3px); }
+}
+
+.hover-shake:hover {
+  animation: shake 0.4s ease-in-out;
+}
+
+/* Animação de fade in com movimento para cima e mudança de cor verde */
+@keyframes fadeInUpColor {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+    color: transparent;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    color: rgb(34, 197, 94); /* verde Tailwind: emerald-500 */
+  }
+}
+
+/* Estado inicial da animação de scroll */
+.scroll-fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-out;
+}
+
+/* Estado visível da animação de scroll */
+.scroll-fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+  color: rgb(34, 197, 94); /* verde Tailwind: emerald-500 */
+}
