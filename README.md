@@ -1,28 +1,26 @@
-🌧️ EcoDrain - Monitoramento Inteligente de Bueiros 🌿  
+# 🌧️ EcoDrain - Monitoramento Inteligente de Bueiros 🌿  
 **License:** MIT | **Stack:** TypeScript · React · TailwindCSS · Framer Motion
 
----
-
-### 🎯 Sobre o Projeto
+## 🎯 Sobre o Projeto
 
 O **EcoDrain** é uma aplicação web desenvolvida para monitorar bueiros urbanos e atuar de forma preventiva contra enchentes. Com foco em sustentabilidade e segurança urbana, oferece uma visualização clara dos riscos e facilita a tomada de decisão para evitar desastres.
 
-> Imagine saber em tempo real onde estão os pontos de entupimento e risco antes da cidade alagar. Isso é o **EcoDrain**!
+> Imagine saber em tempo real onde estão os pontos de entupimento e risco antes da cidade alagar.  
+> Isso é o EcoDrain!
 
 ---
 
-### ✨ Funcionalidades
+## ✨ Funcionalidades
 
 ✅ Simulação de sensores: gera dados de nível de água e entupimento automaticamente  
 ✅ Avaliação de risco: classifica situações por gravidade (baixo, médio, alto)  
 ✅ Mapa Interativo: visualização geográfica de pontos monitorados  
 ✅ Design Moderno: com animações suaves e responsividade  
-🚧 Login e autenticação (em breve)  
-📊 Painel administrativo (em breve)
+
 
 ---
 
-### 🗂️ Estrutura de Pastas (Sugerida)
+## 🗂️ Estrutura de Pastas (Sugerida)
 
 ecodrain/
 ├── public/ # Arquivos estáticos (ícones, favicon, etc)
@@ -52,36 +50,43 @@ Editar
 
 ---
 
-### 🚀 Tecnologias Utilizadas
+## 🎨 Design
 
-- ⚛️ **React.js** – Biblioteca para interfaces modernas  
-- 💅 **Tailwind CSS** – Estilização com utilitários  
-- ⚡ **Vite** – Dev server e build super rápido  
-- 💨 **Framer Motion** – Animações suaves e responsivas  
-- 🟨 **TypeScript** – Tipagem segura para evitar erros  
-- 🧭 **React Router** – Navegação SPA entre páginas  
-- 🌐 **Axios (planejado)** – Comunicação com APIs
+A identidade visual do EcoDrain mistura tons de **verde**, **azul** e **cinza**, transmitindo natureza, tecnologia e prevenção. Utilizamos animações suaves e um layout limpo para facilitar a navegação e a compreensão do conteúdo.
 
 ---
 
-### 🎨 Design
+## 🚀 Tecnologias Utilizadas
 
-A identidade visual do **EcoDrain** mistura tons de verde, azul e cinza, transmitindo natureza, tecnologia e prevenção. Utilizamos animações suaves e um layout limpo para facilitar a navegação e a compreensão do conteúdo.
+- ⚛️ **React.js** – Biblioteca para interfaces modernas
+- 💅 **Tailwind CSS** – Estilização com utilitários
+- ⚡ **Vite** – Dev server e build super rápido
+- 💨 **Framer Motion** – Animações suaves e responsivas
+- 🟨 **TypeScript** – Tipagem segura para evitar erros
+- 🧭 **React Router** – Navegação SPA entre páginas
+- 🌐 **Axios** *(planejado)* – Comunicação com APIs
 
 ---
 
-### ⚙️ Como Rodar o Projeto
+## ⚙️ Como Rodar o Projeto
 
-#### ✅ Pré-requisitos:
+### ✅ Pré-requisitos:
 - Node.js instalado
 - Gerenciador de pacotes: `npm` ou `yarn`
 
-#### 🛠 Instalação:
+### 🛠 Instalação:
 
 ```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/ecodrain.git
+
+# Acesse o diretório
 cd ecodrain
+
+# (opcional) Liste os arquivos e verifique o conteúdo
+dir     # no Windows
+# ou
+ls      # no Linux/macOS
 
 # Instale as dependências
 npm install
@@ -94,8 +99,11 @@ Editar
 npm run dev
 # ou
 yarn dev
-🧪 Testes (em breve)
-Jest + Testing Library para testes de componentes
 
-Cypress para testes de navegação
 
+👨‍💻 Equipe
+Henrique Maciel – RM559628
+
+Igor Pereira Nociti  – RM560225
+
+Pedro Paulo Sabino – RM559578
