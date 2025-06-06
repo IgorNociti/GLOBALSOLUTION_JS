@@ -11,6 +11,7 @@ export default function BlocosAlternados() {
       bg: "bg-emerald-100",
     },
     {
+      
       title: "Receba alertas com base em dados históricos e condições climáticas",
       Icon: BellRing,
       color: "text-red-500",
