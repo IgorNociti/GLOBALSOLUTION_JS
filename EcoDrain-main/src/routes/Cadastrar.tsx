@@ -12,6 +12,7 @@ export default function Cadastrar() {
     setNome("");
     setEmail("");
     setSenha("");
+    
   };
 
   const formContainerVariants = {
