@@ -10,6 +10,7 @@ export default function ErrorPage() {
       transition: { duration: 0.7, ease: "easeOut" },
     },
   };
+  
 
   const numberVariants = {
     hidden: { opacity: 0, y: -50 },
