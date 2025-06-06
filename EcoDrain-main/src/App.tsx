@@ -8,6 +8,7 @@ import Login from "./routes/Login";
 import Cadastrar from "./routes/Cadastrar";
 import ErrorPage from "./routes/Error";
 
+
 export default function App() {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-b from-green-50 to-green-100 text-green-900">
